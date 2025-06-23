@@ -1,0 +1,124 @@
+p {
+  font-family: Roboto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.subscribe {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 105px;
+  border-radius: 2px;
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 8px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 12px;
+  padding-right: 12px;
+  transition: opacity 0.15s;
+  vertical-align: top; /* pour aligner tout mes element verticalement (texte)*/
+}
+.subscribe:hover {
+  opacity: 0.7;
+}
+.subscribe:active {
+  opacity: 0.5;
+}
+
+.Join {
+  background-color: white;
+  color: rgb(41, 118, 211);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(41, 118, 211);
+  height: 36px;
+  width: 62px;
+  border-radius: 2px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  transition: backgroung-color 0.15s, color 0.15s;
+}
+.Join:hover {
+  color: white;
+  background-color: rgb(41, 118, 211);
+}
+.Join:active {
+  opacity: 0.7;
+}
+
+.Tweet {
+  background-color: rgb(2, 137, 255);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 70px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 8px;
+  vertical-align: top;
+  transition: box-shadow 0.15s;
+}
+.Tweet:hover {
+  box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.7); /* droite bas opacité  couleur*/
+}
+
+.video {
+  margin-top: 20px;
+  margin-bottom: 5px;
+
+  font-weight: bold;
+  font-size: 18px;
+  width: 300px;
+  line-height: 24px;
+}
+.stats {
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+}
+
+.author {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  width: 280px;
+  line-height: 22px;
+  margin-bottom: 100px;
+}
+
+.apple {
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 50px;
+  font-size: 14px;
+  background-color: rgb(227, 65, 64);
+  padding-top: 18px;
+  padding-bottom: 18px;
+  text-align: center;
+  color: white;
+}
+
+.Span:hover {
+  text-decoration: underline;
+}
+.Span {
+  cursor: pointer;
+  margin-left: 10px;
+}

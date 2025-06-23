@@ -1,0 +1,190 @@
+.div-principale {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.div1 {
+  background-color: lightskyblue;
+  width: 200px;
+}
+
+.div2 {
+  background-color: lightcoral;
+  width: 75px;
+}
+
+.item1,
+.item3 {
+  background-color: lightskyblue;
+}
+
+.item1 {
+  width: 50px;
+}
+.item2 {
+  background-color: lightcoral;
+  flex: 1; /* Remaining space*/
+}
+
+.item3 {
+  width: 75px;
+}
+
+.div-principal {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.it1,
+.it2,
+.it3,
+.it4 {
+  background-color: lightcoral;
+}
+
+.div4-principale {
+  margin-bottom: 30px;
+  border-width: 2px;
+  border-style: solid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.divP {
+  font-family: Arial;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  width: 300px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+.principale-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+
+.home,
+.notification,
+.messages {
+  background-color: lightskyblue;
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-picture {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-right: 15px;
+}
+
+.info {
+  width: 200px;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.handle {
+  color: rgb(150, 150, 150);
+  margin-bottom: 5px;
+}
+
+.category {
+  color: rgb(150, 150, 150);
+  font-size: 14px;
+}
+
+.follow-button {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: purple;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.Home {
+  font-weight: bold;
+  font-family: Arial;
+  color: white;
+}
+
+.input {
+  width: 400px;
+
+  height: 30px;
+  flex: 1;
+  margin-left: 40px;
+  margin-right: 20px;
+  max-width: 400px;
+  border: none;
+  border-radius: 15px;
+}
+
+.btn {
+  font-family: Arial;
+  font-size: 15px;
+  padding: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 5px;
+  color: white;
+  background-color: transparent;
+}

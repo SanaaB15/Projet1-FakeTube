@@ -1,0 +1,176 @@
+.rouge {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.vert {
+  margin-top: 15px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-color: green;
+}
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.satisfied {
+  margin-top: 20px;
+  border: solid;
+}
+
+.Youtube {
+  width: 450px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 15px;
+  margin-top: 20px;
+  background-color: rgb(28, 28, 28);
+}
+.title {
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+}
+.p1 {
+  font-size: 20px;
+  color: gray;
+}
+.card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 450px;
+  border-radius: 6px;
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.text-box {
+  font-size: 18px;
+  border: none;
+  width: 300px;
+  vertical-align: middle;
+}
+
+.tweet-button {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.picture {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.amis {
+  border-radius: 3px;
+  width: 250px;
+  height: 400px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.person,
+.description {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.description {
+  color: rgb(100, 100, 100);
+  margin-left: 8px;
+  margin-bottom: 12px;
+}
+
+.person {
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 8px;
+  margin-bottom: 5px;
+}
+
+.btn {
+  margin-left: 8px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  background-color: rgb(57, 144, 237);
+}
+
+span {
+  font-family: Arial;
+  font-size: 17px;
+}
+
+div {
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input {
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  width: 500px;
+  border-radius: 30px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.google-button {
+  background-color: rgb(245, 245, 245);
+  border: none;
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.search-button {
+  margin-right: 10px;
+}
