@@ -30,8 +30,9 @@ Faketube is a simplified replica of the YouTube interface. This front-end projec
 ---
 
 ## Demo Video
+https://github.com/user-attachments/assets/49e5579c-d4e6-49a4-914b-1be73321f9ba
 
-📽️ https://github.com/user-attachments/assets/b9a1fdb8-90b5-4eab-903d-c985b45c4b36
+
 
 
 
